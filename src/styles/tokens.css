@@ -1,0 +1,58 @@
+:root {
+  /* Design Tokens - Dark Theme (Default) */
+  --bg: #07070B;
+  --surface-1: #0D0D14;
+  --surface-2: #13131C;
+  --surface-3: #1A1A26;
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --text: #F4F4F8;
+  --text-dim: #A1A1B5;
+  --text-mute: #6B6B80;
+
+  --brand-1: #7C5CFF;
+  --brand-2: #2DE2E6;
+  --brand-grad: linear-gradient(135deg, #7C5CFF 0%, #2DE2E6 100%);
+
+  --risk-critical: #FF3B57;
+  --risk-high: #FF8A1F;
+  --risk-medium: #FFD23F;
+  --risk-low: #2EE6A6;
+
+  --risk-critical-glow: 0 0 40px -8px rgba(255, 59, 87, 0.55);
+  --risk-high-glow: 0 0 40px -8px rgba(255, 138, 31, 0.55);
+  --risk-medium-glow: 0 0 40px -8px rgba(255, 210, 63, 0.55);
+  --risk-low-glow: 0 0 40px -8px rgba(46, 230, 166, 0.55);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+}
+
+.light {
+  /* Light Theme */
+  --bg: #F6F5F1;
+  --surface-1: #FFFFFF;
+  --surface-2: #F0EFE9;
+  --surface-3: #E8E7E1;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.14);
+  --text: #1A1A1A;
+  --text-dim: #5A5A6A;
+  --text-mute: #8A8A9A;
+
+  --brand-1: #6B4CE0;
+  --brand-2: #1DC6CA;
+  --brand-grad: linear-gradient(135deg, #6B4CE0 0%, #1DC6CA 100%);
+
+  --risk-critical: #E6304A;
+  --risk-high: #E67A0A;
+  --risk-medium: #E6BD2A;
+  --risk-low: #1ED896;
+
+  --risk-critical-glow: 0 0 40px -8px rgba(230, 48, 74, 0.4);
+  --risk-high-glow: 0 0 40px -8px rgba(230, 122, 10, 0.4);
+  --risk-medium-glow: 0 0 40px -8px rgba(230, 189, 42, 0.4);
+  --risk-low-glow: 0 0 40px -8px rgba(30, 216, 150, 0.4);
+}
